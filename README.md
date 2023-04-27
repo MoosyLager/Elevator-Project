@@ -1,2 +1,4 @@
 # Elevator-Project
-Elevator Project Bullshit
+Elevator Project Code and Report
+Shenal Herath
+Holly Wogan
