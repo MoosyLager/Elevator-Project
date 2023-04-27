@@ -1,4 +1,4 @@
 # Elevator-Project
-Elevator Project Code and Report
-Shenal Herath
+Elevator Project Code and Report\\
+Shenal Herath\\
 Holly Wogan
