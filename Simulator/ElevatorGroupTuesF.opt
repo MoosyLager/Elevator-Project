@@ -187,25 +187,26 @@ BEGIN
 END;
 Frame[0]:=
 BEGIN
- Norm:="0104 0104 1404 0567";
+ Norm:="0078 0078 1378 0541";
  Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.ELEVATOR_PROJECT.Sections.STATE_MACHINE!STATE_MACHINE";
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.ELEVATOR_PROJECT.Sections.SIMULATOR!SIMULATOR";
  Type:=1;
  Views:=
  BEGIN
   View[0]:=
   BEGIN
+   Yscroll:=91;
   END;
   nViews:=1;
  END;
 END;
 Frame[1]:=
 BEGIN
- Norm:="0182 0182 1588 0645";
+ Norm:="0208 0208 1614 0671";
  Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.NewResource1.Function Blocks.SwitchAverage!SwitchAverage";
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Function Blocks.DecelerationAbove!DecelerationAbove";
  Type:=10;
- Ysplit:=141;
+ Ysplit:=87;
  Views:=
  BEGIN
   View[0]:=
@@ -220,6 +221,56 @@ BEGIN
  END;
 END;
 Frame[2]:=
+BEGIN
+ Norm:="0182 0182 1562 0663";
+ Min:="-001 -001";
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Function Blocks.DecelerationBelow!DecelerationBelow";
+ Type:=10;
+ Ysplit:=147;
+ Views:=
+ BEGIN
+  View[0]:=
+  BEGIN
+   Mag:=1;
+  END;
+  View[1]:=
+  BEGIN
+   Mag:=1;
+  END;
+  nViews:=2;
+ END;
+END;
+Frame[3]:=
+BEGIN
+ Norm:="0000 0000 1300 0594";
+ Min:="-001 -001";
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.ELEVATOR_PROJECT.Sections.ELEVATOR_SETUP!ELEVATOR_SETUP";
+ Type:=1;
+ Views:=
+ BEGIN
+  View[0]:=
+  BEGIN
+  END;
+  nViews:=1;
+ END;
+END;
+Frame[4]:=
+BEGIN
+ Norm:="0000 0000 1406 0463";
+ Min:="-001 -001";
+ Path:="\\file\Userss$\smh231\Home\My Documents\Elevator Project\Simulator\ElevatorGroupTuesF.cxp";
+ Access:="PROJECT:!NewProject.Resources.NewResource1";
+ Type:=8;
+ Views:=
+ BEGIN
+  View[0]:=
+  BEGIN
+   Mag:=1;
+  END;
+  nViews:=1;
+ END;
+END;
+Frame[5]:=
 BEGIN
  Norm:="0026 0026 1326 0598";
  Min:="-001 -001";
@@ -242,28 +293,12 @@ BEGIN
     Width[4]:=84;
     Width[5]:=48;
     Width[6]:=200;
-    SortAscending:=false;
    END;
   END;
   nViews:=1;
  END;
 END;
-Frame[3]:=
-BEGIN
- Norm:="0078 0078 1378 0541";
- Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.ELEVATOR_PROJECT.Sections.SIMULATOR!SIMULATOR";
- Type:=1;
- Views:=
- BEGIN
-  View[0]:=
-  BEGIN
-   Yscroll:=91;
-  END;
-  nViews:=1;
- END;
-END;
-Frame[4]:=
+Frame[6]:=
 BEGIN
  Norm:="0052 0052 1352 0624";
  Min:="-001 -001";
@@ -274,6 +309,7 @@ BEGIN
  BEGIN
   View[0]:=
   BEGIN
+   Yscroll:=33;
    Mag:=1;
    Extra:=
    BEGIN
@@ -292,77 +328,22 @@ BEGIN
   nViews:=1;
  END;
 END;
-Frame[5]:=
-BEGIN
- Norm:="0208 0208 1614 0671";
- Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.NewResource1.Function Blocks.DecelerationAbove!DecelerationAbove";
- Type:=10;
- Ysplit:=87;
- Views:=
- BEGIN
-  View[0]:=
-  BEGIN
-   Mag:=1;
-  END;
-  View[1]:=
-  BEGIN
-   Mag:=1;
-  END;
-  nViews:=2;
- END;
-END;
-Frame[6]:=
-BEGIN
- Norm:="0182 0182 1562 0663";
- Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.NewResource1.Function Blocks.DecelerationBelow!DecelerationBelow";
- Type:=10;
- Ysplit:=147;
- Views:=
- BEGIN
-  View[0]:=
-  BEGIN
-   Mag:=1;
-  END;
-  View[1]:=
-  BEGIN
-   Mag:=1;
-  END;
-  nViews:=2;
- END;
-END;
 Frame[7]:=
 BEGIN
- Norm:="0000 0000 1300 0594";
+ Norm:="0052 0052 1458 0515";
  Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.ELEVATOR_PROJECT.Sections.ELEVATOR_SETUP!ELEVATOR_SETUP";
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.ELEVATOR_PROJECT.Sections.STATE_MACHINE!STATE_MACHINE";
  Type:=1;
  Views:=
  BEGIN
   View[0]:=
   BEGIN
+   Yscroll:=33;
   END;
   nViews:=1;
  END;
 END;
 Frame[8]:=
-BEGIN
- Norm:="0000 0000 1406 0463";
- Min:="-001 -001";
- Path:="\\file\Userss$\smh231\Home\My Documents\Elevator Project\Simulator\ElevatorGroupTuesF.cxp";
- Access:="PROJECT:!NewProject.Resources.NewResource1";
- Type:=8;
- Views:=
- BEGIN
-  View[0]:=
-  BEGIN
-   Mag:=1;
-  END;
-  nViews:=1;
- END;
-END;
-Frame[9]:=
 BEGIN
  Max:=true;
  Norm:="0130 0130 1430 0593";
@@ -373,12 +354,12 @@ BEGIN
  BEGIN
   View[0]:=
   BEGIN
-   Yscroll:=153;
+   Yscroll:=148;
   END;
   nViews:=1;
  END;
 END;
-nFrames:=10;
+nFrames:=9;
 WatchWindow:=
 BEGIN
  NumWatch:=3;
