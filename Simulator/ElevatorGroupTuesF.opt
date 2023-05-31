@@ -6,8 +6,8 @@ BEGIN
   BarID:=59422;
   Bars:=6;
   Bar[0]:=0;
-  Bar[1]:=59414;
-  Bar[2]:=59415;
+  Bar[1]:=59415;
+  Bar[2]:=59414;
   Bar[3]:=59416;
   Bar[4]:=59412;
   Bar[5]:=0;
@@ -51,19 +51,19 @@ BEGIN
  Bar[2]:=
  BEGIN
   BarID:=59414;
-  Pos:="1 5";
+  Pos:="964 5";
   Docking:=1;
   MRUDockID:=0;
-  MRUDockPos:="1 5 1920 185";
+  MRUDockPos:="964 5 1920 141";
   MRUFloatStyle:=4;
   MRUFloatPos:="-2147483648 0";
   Style:=36756;
   ExStyle:=3889;
   PrevFloating:=0;
   MDIChild:=0;
-  PctWidth:="1000000";
+  PctWidth:="500000";
   MRUFloat:="300 180";
-  MRUHorzDock:="1919 180";
+  MRUHorzDock:="956 136";
   MRUVertDock:="300 180";
   MRUDockingState:=0;
   DockingStyle:=61440;
@@ -88,7 +88,7 @@ BEGIN
   MDIChild:=0;
   PctWidth:="500000";
   MRUFloat:="300 180";
-  MRUHorzDock:="708 180";
+  MRUHorzDock:="708 136";
   MRUVertDock:="300 180";
   MRUDockingState:=0;
   DockingStyle:=61440;
@@ -113,7 +113,7 @@ BEGIN
   MDIChild:=0;
   PctWidth:="500000";
   MRUFloat:="300 180";
-  MRUHorzDock:="709 180";
+  MRUHorzDock:="709 136";
   MRUVertDock:="300 180";
   MRUDockingState:=0;
   DockingStyle:=61440;
@@ -128,7 +128,7 @@ BEGIN
   Pos:="0 -2";
   Docking:=1;
   MRUDockID:=0;
-  MRUDockPos:="0 -2 300 671";
+  MRUDockPos:="0 -2 300 715";
   MRUFloatStyle:=4;
   MRUFloatPos:="-2147483648 0";
   Style:=8084;
@@ -138,7 +138,7 @@ BEGIN
   PctWidth:="1000000";
   MRUFloat:="300 180";
   MRUHorzDock:="300 180";
-  MRUVertDock:="300 673";
+  MRUVertDock:="300 717";
   MRUDockingState:=0;
   DockingStyle:=61440;
   TypeID:=0;
@@ -149,20 +149,19 @@ BEGIN
  Bar[6]:=
  BEGIN
   BarID:=59415;
-  Visible:=0;
-  Pos:="0 0";
+  Pos:="1 5";
   Docking:=1;
-  MRUDockID:=0;
-  MRUDockPos:="0 0 0 0";
+  MRUDockID:=59422;
+  MRUDockPos:="1 5 958 141";
   MRUFloatStyle:=4;
   MRUFloatPos:="-2147483648 0";
   Style:=36756;
   ExStyle:=3889;
   PrevFloating:=0;
   MDIChild:=0;
-  PctWidth:="1000000";
+  PctWidth:="500000";
   MRUFloat:="300 180";
-  MRUHorzDock:="300 180";
+  MRUHorzDock:="957 136";
   MRUVertDock:="300 180";
   MRUDockingState:=0;
   DockingStyle:=61440;
@@ -178,109 +177,14 @@ ProjectTree:=
 BEGIN
  Item[0]:=0;
  Item[1]:=2;
- Item[2]:=42;
- Item[3]:=43;
- Item[4]:=52;
+ Item[2]:=75;
+ Item[3]:=76;
+ Item[4]:=85;
  ItemCount:=5;
- Sumcheck:=135;
- Selected:=88;
+ Sumcheck:=168;
+ Selected:=83;
 END;
 Frame[0]:=
-BEGIN
- Norm:="0026 0026 1354 0598";
- Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.NewResource1.Function Blocks.DoorCycle!DoorCycle";
- Type:=10;
- Ysplit:=103;
- Views:=
- BEGIN
-  View[0]:=
-  BEGIN
-   Mag:=1;
-  END;
-  View[1]:=
-  BEGIN
-   Mag:=1;
-  END;
-  nViews:=2;
- END;
-END;
-Frame[1]:=
-BEGIN
- Norm:="0234 0234 1588 0756";
- Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.NewResource1.Function Blocks.UpBetweenFloors!UpBetweenFloors";
- Type:=10;
- Ysplit:=85;
- Views:=
- BEGIN
-  View[0]:=
-  BEGIN
-   Mag:=1;
-  END;
-  View[1]:=
-  BEGIN
-   Mag:=1;
-  END;
-  nViews:=2;
- END;
-END;
-Frame[2]:=
-BEGIN
- Norm:="0000 0000 1328 0572";
- Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.NewResource1.Function Blocks.UpAtFloor!UpAtFloor";
- Type:=10;
- Ysplit:=110;
- Views:=
- BEGIN
-  View[0]:=
-  BEGIN
-   Mag:=1;
-  END;
-  View[1]:=
-  BEGIN
-   Mag:=1;
-  END;
-  nViews:=2;
- END;
-END;
-Frame[3]:=
-BEGIN
- Norm:="0026 0026 1432 0489";
- Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.NewResource1.Function Blocks.DownAtFloor!DownAtFloor";
- Type:=10;
- Ysplit:=141;
- Views:=
- BEGIN
-  View[0]:=
-  BEGIN
-   Mag:=1;
-  END;
-  View[1]:=
-  BEGIN
-   Mag:=1;
-  END;
-  nViews:=2;
- END;
-END;
-Frame[4]:=
-BEGIN
- Norm:="0026 0026 1432 0489";
- Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.ELEVATOR_PROJECT!ELEVATOR_PROJECT";
- Type:=7;
- Views:=
- BEGIN
-  View[0]:=
-  BEGIN
-   Mag:=1;
-  END;
-  nViews:=1;
- END;
-END;
-Frame[5]:=
 BEGIN
  Norm:="0078 0078 1484 0541";
  Min:="-001 -001";
@@ -304,47 +208,150 @@ BEGIN
     Width[4]:=84;
     Width[5]:=48;
     Width[6]:=200;
+    SortCol:=1;
+    SortAscending:=false;
    END;
   END;
   nViews:=1;
  END;
 END;
-Frame[6]:=
+Frame[1]:=
 BEGIN
- Norm:="0130 0130 1430 0593";
+ Norm:="0078 0078 1458 0559";
  Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.ELEVATOR_PROJECT.Sections.PROGRAM!PROGRAM";
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.ELEVATOR_PROJECT.Sections.STATE_MACHINE!STATE_MACHINE";
  Type:=1;
  Views:=
  BEGIN
   View[0]:=
   BEGIN
-   Yscroll:=177;
+   Yscroll:=28;
   END;
   nViews:=1;
+ END;
+END;
+Frame[2]:=
+BEGIN
+ Norm:="0208 0208 1588 0689";
+ Min:="-001 -001";
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Function Blocks.DownState!DownState";
+ Type:=10;
+ Ysplit:=147;
+ Views:=
+ BEGIN
+  View[0]:=
+  BEGIN
+   Mag:=1;
+  END;
+  View[1]:=
+  BEGIN
+   Mag:=1;
+  END;
+  nViews:=2;
+ END;
+END;
+Frame[3]:=
+BEGIN
+ Norm:="0104 0104 1484 0621";
+ Min:="-001 -001";
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Function Blocks.SelectiveUpState!SelectiveUpState";
+ Type:=10;
+ Ysplit:=159;
+ Views:=
+ BEGIN
+  View[0]:=
+  BEGIN
+   Mag:=1;
+  END;
+  View[1]:=
+  BEGIN
+   Mag:=1;
+  END;
+  nViews:=2;
+ END;
+END;
+Frame[4]:=
+BEGIN
+ Norm:="0052 0052 1432 0533";
+ Min:="-001 -001";
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.ELEVATOR_PROJECT.Sections.SIMULATOR!SIMULATOR";
+ Type:=1;
+ Views:=
+ BEGIN
+  View[0]:=
+  BEGIN
+   Yscroll:=95;
+  END;
+  nViews:=1;
+ END;
+END;
+Frame[5]:=
+BEGIN
+ Norm:="0234 0234 1614 0715";
+ Min:="-001 -001";
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Function Blocks.SelectiveDownState!SelectiveDownState";
+ Type:=10;
+ Ysplit:=147;
+ Views:=
+ BEGIN
+  View[0]:=
+  BEGIN
+   Mag:=1;
+  END;
+  View[1]:=
+  BEGIN
+   Mag:=1;
+  END;
+  nViews:=2;
+ END;
+END;
+Frame[6]:=
+BEGIN
+ Norm:="0234 0234 1588 0756";
+ Min:="-001 -001";
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Function Blocks.UpState!UpState";
+ Type:=10;
+ Ysplit:=126;
+ Views:=
+ BEGIN
+  View[0]:=
+  BEGIN
+   Mag:=1;
+  END;
+  View[1]:=
+  BEGIN
+   Mag:=1;
+  END;
+  nViews:=2;
  END;
 END;
 Frame[7]:=
 BEGIN
- Norm:="0052 0052 1458 0515";
+ Norm:="0104 0104 1484 0585";
  Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.ELEVATOR_PROJECT.Sections.ELEVATOR_SETUP!ELEVATOR_SETUP";
- Type:=1;
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Function Blocks.DecelerationAbove!DecelerationAbove";
+ Type:=10;
+ Ysplit:=147;
  Views:=
  BEGIN
   View[0]:=
   BEGIN
+   Mag:=1;
   END;
-  nViews:=1;
+  View[1]:=
+  BEGIN
+   Mag:=1;
+  END;
+  nViews:=2;
  END;
 END;
 Frame[8]:=
 BEGIN
- Norm:="0078 0078 1458 0548";
+ Norm:="0000 0000 1406 0463";
  Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.NewResource1.Function Blocks.DownBetweenFloors!DownBetweenFloors";
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Function Blocks.IdleState!IdleState";
  Type:=10;
- Ysplit:=143;
+ Ysplit:=141;
  Views:=
  BEGIN
   View[0]:=
@@ -361,22 +368,17 @@ END;
 Frame[9]:=
 BEGIN
  Max:=true;
- Norm:="0000 0000 1406 0463";
+ Norm:="0130 0130 1430 0593";
  Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.NewResource1.Function Blocks.IdleAtFloor!IdleAtFloor";
- Type:=10;
- Ysplit:=141;
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.ELEVATOR_PROJECT.Sections.PROGRAM!PROGRAM";
+ Type:=1;
  Views:=
  BEGIN
   View[0]:=
   BEGIN
-   Mag:=1;
+   Yscroll:=238;
   END;
-  View[1]:=
-  BEGIN
-   Mag:=1;
-  END;
-  nViews:=2;
+  nViews:=1;
  END;
 END;
 nFrames:=10;
