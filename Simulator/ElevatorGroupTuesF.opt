@@ -54,7 +54,7 @@ BEGIN
   Pos:="964 5";
   Docking:=1;
   MRUDockID:=0;
-  MRUDockPos:="964 5 1920 129";
+  MRUDockPos:="964 5 1920 259";
   MRUFloatStyle:=4;
   MRUFloatPos:="-2147483648 0";
   Style:=36756;
@@ -63,7 +63,7 @@ BEGIN
   MDIChild:=0;
   PctWidth:="500000";
   MRUFloat:="300 180";
-  MRUHorzDock:="956 124";
+  MRUHorzDock:="956 254";
   MRUVertDock:="300 180";
   MRUDockingState:=0;
   DockingStyle:=61440;
@@ -88,7 +88,7 @@ BEGIN
   MDIChild:=0;
   PctWidth:="500000";
   MRUFloat:="300 180";
-  MRUHorzDock:="708 124";
+  MRUHorzDock:="708 254";
   MRUVertDock:="300 180";
   MRUDockingState:=0;
   DockingStyle:=61440;
@@ -113,7 +113,7 @@ BEGIN
   MDIChild:=0;
   PctWidth:="500000";
   MRUFloat:="300 180";
-  MRUHorzDock:="709 124";
+  MRUHorzDock:="709 254";
   MRUVertDock:="300 180";
   MRUDockingState:=0;
   DockingStyle:=61440;
@@ -128,7 +128,7 @@ BEGIN
   Pos:="0 -2";
   Docking:=1;
   MRUDockID:=0;
-  MRUDockPos:="0 -2 214 727";
+  MRUDockPos:="0 -2 300 597";
   MRUFloatStyle:=4;
   MRUFloatPos:="-2147483648 0";
   Style:=8084;
@@ -138,7 +138,7 @@ BEGIN
   PctWidth:="1000000";
   MRUFloat:="300 180";
   MRUHorzDock:="300 180";
-  MRUVertDock:="214 729";
+  MRUVertDock:="300 599";
   MRUDockingState:=0;
   DockingStyle:=61440;
   TypeID:=0;
@@ -152,7 +152,7 @@ BEGIN
   Pos:="1 5";
   Docking:=1;
   MRUDockID:=0;
-  MRUDockPos:="1 5 958 129";
+  MRUDockPos:="1 5 958 259";
   MRUFloatStyle:=4;
   MRUFloatPos:="-2147483648 0";
   Style:=36756;
@@ -161,7 +161,7 @@ BEGIN
   MDIChild:=0;
   PctWidth:="500000";
   MRUFloat:="300 180";
-  MRUHorzDock:="957 124";
+  MRUHorzDock:="957 254";
   MRUVertDock:="300 180";
   MRUDockingState:=0;
   DockingStyle:=61440;
@@ -182,43 +182,31 @@ BEGIN
  Item[4]:=79;
  ItemCount:=5;
  Sumcheck:=156;
- Selected:=77;
- ScrollPos:="29 0";
+ Selected:=103;
 END;
 Frame[0]:=
 BEGIN
- Norm:="0234 0234 0713 0759";
+ Norm:="0052 0052 1352 0545";
  Min:="-001 -001";
- Path:="\\file\Userss$\smh231\Home\My Documents\Elevator Project\Simulator\ElevatorGroupTuesF.cxp";
- Access:="PROJECT:!NewProject.Resources.NewResource1.Symbols";
- Type:=3;
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Function Blocks.DownState!DownState";
+ Type:=10;
+ Ysplit:=151;
  Views:=
  BEGIN
   View[0]:=
   BEGIN
-   Yscroll:=72;
    Mag:=1;
-   Extra:=
-   BEGIN
-    Type:="CSymbolTableListCtrlState";
-    Style:=1;
-    NumCols:=7;
-    Width[0]:=150;
-    Width[1]:=90;
-    Width[2]:=100;
-    Width[3]:=1;
-    Width[4]:=84;
-    Width[5]:=48;
-    Width[6]:=200;
-    SortCol:=2;
-   END;
   END;
-  nViews:=1;
+  View[1]:=
+  BEGIN
+   Mag:=1;
+  END;
+  nViews:=2;
  END;
 END;
 Frame[1]:=
 BEGIN
- Norm:="0026 0026 1492 0519";
+ Norm:="0026 0026 1326 0519";
  Min:="-001 -001";
  Access:="PROGRAM:NewProject.Resources.NewResource1.Function Blocks.DecelerationAbove!DecelerationAbove";
  Type:=10;
@@ -238,7 +226,7 @@ BEGIN
 END;
 Frame[2]:=
 BEGIN
- Norm:="0078 0078 1544 0571";
+ Norm:="0078 0078 1378 0571";
  Min:="-001 -001";
  Access:="PROGRAM:NewProject.Resources.NewResource1.Function Blocks.DecelerationBelow!DecelerationBelow";
  Type:=10;
@@ -258,128 +246,108 @@ BEGIN
 END;
 Frame[3]:=
 BEGIN
- Norm:="0000 0000 1466 0493";
+ Norm:="0156 0156 1456 0571";
  Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.NewResource1.Function Blocks.SelectiveUpState!SelectiveUpState";
- Type:=10;
- Ysplit:=151;
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.ELEVATOR_PROJECT!ELEVATOR_PROJECT.Symbols";
+ Type:=3;
  Views:=
  BEGIN
   View[0]:=
   BEGIN
    Mag:=1;
+   Extra:=
+   BEGIN
+    Type:="CSymbolTableListCtrlState";
+    Style:=1;
+    NumCols:=7;
+    Width[0]:=150;
+    Width[1]:=90;
+    Width[2]:=100;
+    Width[3]:=1;
+    Width[4]:=84;
+    Width[5]:=48;
+    Width[6]:=200;
+    SortCol:=2;
+   END;
   END;
-  View[1]:=
-  BEGIN
-   Mag:=1;
-  END;
-  nViews:=2;
+  nViews:=1;
  END;
 END;
 Frame[4]:=
 BEGIN
- Norm:="0130 0130 1596 0623";
+ Norm:="0260 0260 1560 0792";
  Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.NewResource1.Function Blocks.SelectiveDownState!SelectiveDownState";
- Type:=10;
- Ysplit:=151;
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.ELEVATOR_PROJECT.Sections.ELEVATOR_SETUP!ELEVATOR_SETUP";
+ Type:=1;
  Views:=
  BEGIN
   View[0]:=
   BEGIN
-   Mag:=1;
   END;
-  View[1]:=
-  BEGIN
-   Mag:=1;
-  END;
-  nViews:=2;
+  nViews:=1;
  END;
 END;
 Frame[5]:=
 BEGIN
- Norm:="0156 0156 1622 0649";
+ Norm:="0078 0078 1378 0493";
  Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.NewResource1.Function Blocks.SwitchAverage!SwitchAverage";
- Type:=10;
- Ysplit:=151;
+ Path:="\\file\Userss$\smh231\Home\My Documents\Elevator Project\Simulator\ElevatorGroupTuesF.cxp";
+ Access:="PROJECT:!NewProject.Resources.NewResource1.Symbols";
+ Type:=3;
  Views:=
  BEGIN
   View[0]:=
   BEGIN
    Mag:=1;
+   Extra:=
+   BEGIN
+    Type:="CSymbolTableListCtrlState";
+    Style:=1;
+    NumCols:=7;
+    Width[0]:=150;
+    Width[1]:=90;
+    Width[2]:=100;
+    Width[3]:=1;
+    Width[4]:=84;
+    Width[5]:=48;
+    Width[6]:=200;
+   END;
   END;
-  View[1]:=
-  BEGIN
-   Mag:=1;
-  END;
-  nViews:=2;
+  nViews:=1;
  END;
 END;
 Frame[6]:=
 BEGIN
- Norm:="0208 0208 1674 0750";
+ Norm:="0026 0026 1458 0441";
  Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.NewResource1.Function Blocks.IdleState!IdleState";
- Type:=10;
- Ysplit:=281;
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.ELEVATOR_PROJECT.Sections.SIMULATOR!SIMULATOR";
+ Type:=1;
  Views:=
  BEGIN
   View[0]:=
   BEGIN
-   Mag:=1;
   END;
-  View[1]:=
-  BEGIN
-   Mag:=1;
-  END;
-  nViews:=2;
+  nViews:=1;
  END;
 END;
 Frame[7]:=
 BEGIN
- Norm:="0104 0104 1570 0597";
+ Norm:="0104 0104 1404 0519";
  Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.NewResource1.Function Blocks.UpState!UpState";
- Type:=10;
- Ysplit:=151;
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.ELEVATOR_PROJECT.Sections.STATE_MACHINE!STATE_MACHINE";
+ Type:=1;
  Views:=
  BEGIN
   View[0]:=
   BEGIN
-   Mag:=1;
+   Yscroll:=19;
   END;
-  View[1]:=
-  BEGIN
-   Mag:=1;
-  END;
-  nViews:=2;
+  nViews:=1;
  END;
 END;
 Frame[8]:=
 BEGIN
- Norm:="0052 0052 1518 0545";
- Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.NewResource1.Function Blocks.DownState!DownState";
- Type:=10;
- Ysplit:=151;
- Views:=
- BEGIN
-  View[0]:=
-  BEGIN
-   Mag:=1;
-  END;
-  View[1]:=
-  BEGIN
-   Mag:=1;
-  END;
-  nViews:=2;
- END;
-END;
-Frame[9]:=
-BEGIN
- Max:=true;
- Norm:="0182 0182 1648 0675";
+ Norm:="0182 0182 1482 0675";
  Min:="-001 -001";
  Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.ELEVATOR_PROJECT.Sections.PROGRAM!PROGRAM";
  Type:=1;
@@ -387,9 +355,30 @@ BEGIN
  BEGIN
   View[0]:=
   BEGIN
-   Yscroll:=160;
+   Yscroll:=602;
   END;
   nViews:=1;
+ END;
+END;
+Frame[9]:=
+BEGIN
+ Max:=true;
+ Norm:="0052 0052 1484 0467";
+ Min:="-001 -001";
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Function Blocks.IdleState!IdleState";
+ Type:=10;
+ Ysplit:=125;
+ Views:=
+ BEGIN
+  View[0]:=
+  BEGIN
+   Mag:=1;
+  END;
+  View[1]:=
+  BEGIN
+   Mag:=1;
+  END;
+  nViews:=2;
  END;
 END;
 nFrames:=10;
